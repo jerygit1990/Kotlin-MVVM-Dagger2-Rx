@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/list_pd_left"
+              android:paddingTop="@dimen/list_pd_top"
+              android:paddingBottom="@dimen/list_item_spacing"
+              android:paddingRight="@dimen/list_pd_right"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/video_preview_height">
+        <ImageView
+                android:id="@+id/img_video_preview"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <ImageView
+                android:src="@drawable/ic_play_circle_outline_black_24dp"
+                android:layout_gravity="center"
+                android:alpha="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:text="06:99:22"
+                android:background="@drawable/bg_video_duration"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="bottom|right"
+                android:id="@+id/txt_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <TextView
+            android:id="@+id/txt_date"
+            android:textSize="14sp"
+            android:textColor="#888888"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="sdsafsdfsdfsdfsd"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

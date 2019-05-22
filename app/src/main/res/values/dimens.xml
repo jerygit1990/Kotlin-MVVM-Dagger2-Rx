@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_pd_left">10dp</dimen>
+    <dimen name="list_pd_right">10dp</dimen>
+    <dimen name="list_item_spacing">15dp</dimen>
+    <dimen name="list_pd_top">10dp</dimen>
+    <dimen name="video_preview_height">180dp</dimen>
+    <dimen name="feed_thumb_height">100dp</dimen>
+</resources>
