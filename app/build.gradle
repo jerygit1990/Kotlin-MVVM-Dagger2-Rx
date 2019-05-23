@@ -7,7 +7,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.jery.chappibot.assignment"
+        applicationId "com.jery.mvvm.example"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
